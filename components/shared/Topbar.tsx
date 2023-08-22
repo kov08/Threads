@@ -13,7 +13,7 @@ function Topbar() {
             
             </Link>
 
-            {/* <div className="flex items-center gap-1">
+            <div className="flex items-center gap-1">
                 <div className="block md: hidden">
                     <SignedIn>
                         <SignOutButton>
@@ -29,16 +29,16 @@ function Topbar() {
                     </SignedIn>
 
                     <OrganizationSwitcher
-                        appearance={(
+                        appearance={{
                             elements :{
                                 OrganizationSwitcherTrigger: "py-2 px-4 "
                             }
-                        )}                    
+                        }}                    
                     />
 
                 </div>
 
-            </div> */}
+            </div>
 
         </nav>
     )
